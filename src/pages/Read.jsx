@@ -20,12 +20,13 @@ const Read = () => {
         await deleteGuest(id); 
         setGuests((prevGuests) => prevGuests.filter(people=> people.id !== id))
     };
+    
     const handleReadClick = () => {
-        navigate('.'); // Navega a la ruta actual
+        navigate('.'); 
     };
 
     const handleCreateClick = () => {
-        navigate('/create'); // Navega a la ruta de creación
+        navigate('/create'); 
     };
 
     return (

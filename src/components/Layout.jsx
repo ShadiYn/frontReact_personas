@@ -4,13 +4,7 @@ import '../app/layoutstyle.css';
 const Layout = ({ children }) => {
     const navigate = useNavigate(); // Llama a useNavigate correctamente
 
-    const handleReadClick = () => {
-        navigate('.'); // Navega a la ruta actual
-    };
-
-    const handleCreateClick = () => {
-        navigate('/create'); // Navega a la ruta de creación
-    };
+  
 
     return (
         <div>
