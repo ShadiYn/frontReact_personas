@@ -5,7 +5,7 @@ import Delete from '../pages/Delete';
 
 
 const Router = () => (
-    <BrowserRouter>
+    <BrowserRouter basename="/frontReact_personas">
        
             <Routes>
                 <Route>
