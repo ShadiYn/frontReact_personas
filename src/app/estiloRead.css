@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Tarjetas de mínimo 200px */
+    gap: 15px; /* Espacio entre tarjetas */
+    padding: 10px;
+}
+
+.card {
+    border: 3px solid #d495cd; /* Borde de la tarjeta */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    background-color: #e3bcdb; /* Color de fondo de la tarjeta */
+}
+.titulo{
+    text-align: center;
+}
+.baackgroind{
+    background-image: url('../app/imagen1.jpg');
+}
+
+body{
+    background-image: url('../app/imagen1.jpg');
+
+}
+
+.btn {
+    margin: 5px; /* Espaciado entre botones */
+}
