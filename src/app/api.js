@@ -1,5 +1,5 @@
 import axios from 'axios';
-const instance = axios.create({ baseURL: 'http://localhost:8080/people' });
+const instance = axios.create({ baseURL: 'https://db-lista.onrender.com/people' });
 
 // CREATE
 export const createGuest = async (obj) => await instance.post('/', obj);
